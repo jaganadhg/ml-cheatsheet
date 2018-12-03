@@ -161,6 +161,10 @@ A vector field shows how far the point (x,y) would hypothetically move if we app
 
 This vector field is an interesting one since it moves in different directions depending the starting point. The reason is that the vector behind this field stores terms like :math:`2x` or :math:`x^2` instead of scalar values like -2 and 5. For each point on the graph, we plug the x-coordinate into :math:`2x` or :math:`x^2` and draw an arrow from the starting point to the new location. Vector fields are extremely useful for visualizing machine learning techniques like Gradient Descent.
 
+Sparsity
+-------------
+A vector is said to be sparse if many of its entries are zero. 
+
 
 Matrices
 ========
